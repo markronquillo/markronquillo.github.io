@@ -1,12 +1,34 @@
----
-layout: default
----
+<!doctype html>
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  {% include post.html post=post content=post.content %}
-{% endfor %}
 
-{% if paginator.total_pages > 1 %}
-    {% include pagination.html maxPages=5 %}
-{% endif %}
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./static/normalize.css">
+    <link rel="stylesheet" href="./static/global.css">
+    <link rel="stylesheet" href="./static/base.css">
+    <link rel="stylesheet" href="./static/main.css">
+    <title> — markronquillo</title>
+</head>
+<body>
+    <div class="page">
+        
+    <header class="full-header">
+    <div class="card center">
+        <div class="card-wrapper">
+            <span class="title">Mark Joseph Ronquillo</span>
+            <span class="content">
+                I write about <a href="#" class="link green">Python</a>, <a href="#" class="link blue">JavaScript</a>, <a href="#" class="link orange">Swift</a> and <a href="#" class="link red">Computer Science</a> related research.
+            </span>
+            <span class="links">
+                <a href="/blog">Blog</a> | 
+                <a href="#">Twitter</a> | 
+                <a href="#">Github</a> | 
+                <a href="#">LinkedIn</a>
+            </span>
+        </div>
+    </div> 
+</header>   
+
+    </div>
+</body>

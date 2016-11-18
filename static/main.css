@@ -1,0 +1,165 @@
+.post {
+    padding-bottom: 50px;
+}
+
+/************************************************************************************/
+
+.full-header {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    letter-spacing: 1pt;
+    justify-content: center;
+}
+
+.full-header .card.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.full-header .card .card-wrapper {
+    width: 350px;
+}
+
+.full-header .card.center span {
+    display: block;
+    line-height: 2em;
+}
+
+.full-header .card.center .links {
+    font-size: 0.7em;
+    margin-top: 1.5em;
+}
+
+.full-header .card .title {
+    font-size: 1.5em;
+}
+
+/************************************************************************************/
+
+.full-content {
+   display: flex;
+   border-top: 1px solid #E5F2F8;
+   padding-top: 50px;
+   min-height: 100vh;
+   justify-content: center;
+}
+
+.full-content .content-wrapper {
+    width: 750px;
+}
+
+.full-content .title {
+    font-size: 1.8em;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.5em;
+    position: relative;
+    background: white;
+}
+
+/*.full-content .title:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: black;
+    top: 75%;
+    left: 0;
+}
+
+.full-content .title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: black;
+    top: 75%;
+    left: 0;
+}*/
+
+.full-content .subtitle {
+    font-style: italic;
+    font-size: 0.7em;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+/************************************************************************************/
+
+
+.blog-links {
+    margin-top: 20pt;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog-link {
+    display: block;
+    width: 100%;
+    border-bottom: 1px dashed #E5F2F8;
+    padding: 15px 0;
+}
+
+.blog-link span {
+    display: inline-block;
+}
+
+.blog-link .date {
+    font-size: 0.8em;
+    font-style: italic;
+    /*text-transform: uppercase;*/
+    width: 15%;
+}
+
+.blog-link .link-title {
+    width: 60%;
+}
+
+.blog-link .tag {
+    width: 20%;
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/************************************************************************************/
+
+.image-section {
+    padding-bottom: 20px;
+}
+
+.image-section img {
+    margin-bottom: 10px;
+}
+
+.image-section .description {
+    text-align: center;
+    display: block;
+}
+
+/************************************************************************************/
+
+.page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.page-navigation ul {
+    width: 750px;
+}
+
+.page-navigation li {
+    float: left;
+    padding-right: 15px;
+}
+
+
+
