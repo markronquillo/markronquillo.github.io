@@ -154,10 +154,13 @@
 
 .page-navigation ul {
     width: 750px;
+    margin: 0;
 }
 
 .page-navigation li {
     float: left;
+    list-style: none;
+    padding:0;
     padding-right: 15px;
 }
 

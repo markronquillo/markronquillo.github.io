@@ -27,3 +27,17 @@ p {
     line-height: 1.8em;
     font-size: 1.2em;
 }
+
+ul {
+    margin:20px;
+    margin-left: 30px;
+}
+
+ul li {
+    list-style: circle;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
