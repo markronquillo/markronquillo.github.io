@@ -1,0 +1,84 @@
+{
+  "assetsByChunkName": {
+    "path---blog": [
+      "path---blog-554d60f7f8386dd394f6.js",
+      "path---blog-554d60f7f8386dd394f6.js.map"
+    ],
+    "path---sample-project": [
+      "path---sample-project-0ad2869180d9d26a130c.js",
+      "path---sample-project-0ad2869180d9d26a130c.js.map"
+    ],
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-7501306a1f51a772cf38.js",
+      "page-component---src-pages-index-js-7501306a1f51a772cf38.js.map"
+    ],
+    "page-component---src-templates-blog-post-js": [
+      "page-component---src-templates-blog-post-js-f845790ea70a62830e6a.js",
+      "page-component---src-templates-blog-post-js-f845790ea70a62830e6a.js.map"
+    ],
+    "path---beginning-docker": [
+      "path---beginning-docker-032e57bae6e152bae5d7.js",
+      "path---beginning-docker-032e57bae6e152bae5d7.js.map"
+    ],
+    "path---projects": [
+      "path---projects-ebc36328ab4c261442ca.js",
+      "path---projects-ebc36328ab4c261442ca.js.map"
+    ],
+    "path---docker-compose-for-local-development": [
+      "path---docker-compose-for-local-development-573abaf1317f3089ac0f.js",
+      "path---docker-compose-for-local-development-573abaf1317f3089ac0f.js.map"
+    ],
+    "page-component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js",
+      "page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js.map"
+    ],
+    "path---index": [
+      "path---index-554d60f7f8386dd394f6.js",
+      "path---index-554d60f7f8386dd394f6.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-6b36ed0337920c58f1ff.js",
+      "path---hello-world-6b36ed0337920c58f1ff.js.map"
+    ],
+    "page-component---src-pages-projects-js": [
+      "page-component---src-pages-projects-js-89699812aa26f377bf34.js",
+      "page-component---src-pages-projects-js-89699812aa26f377bf34.js.map"
+    ],
+    "path---opensource-project-anatomization-initial": [
+      "path---opensource-project-anatomization-initial-e978c5b59132f013bbc8.js",
+      "path---opensource-project-anatomization-initial-e978c5b59132f013bbc8.js.map"
+    ],
+    "commons": [
+      "commons-2ab9a40510966dd9b2e4.js",
+      "commons-2ab9a40510966dd9b2e4.js.map"
+    ],
+    "path---different-ways-to-implement-reducers-in-redux": [
+      "path---different-ways-to-implement-reducers-in-redux-9438289ec28cc2ca6178.js",
+      "path---different-ways-to-implement-reducers-in-redux-9438289ec28cc2ca6178.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
+      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
+    ],
+    "app": [
+      "app-e9eeb8dd87215db51dae.js",
+      "app-e9eeb8dd87215db51dae.js.map"
+    ],
+    "page-component---src-pages-blog-js": [
+      "page-component---src-pages-blog-js-7501306a1f51a772cf38.js",
+      "page-component---src-pages-blog-js-7501306a1f51a772cf38.js.map"
+    ],
+    "page-component---src-pages-about-js": [
+      "page-component---src-pages-about-js-228faaa49c0de1cdfb3f.js",
+      "page-component---src-pages-about-js-228faaa49c0de1cdfb3f.js.map"
+    ],
+    "layout-component---index": [
+      "layout-component---index-c3f7f1e07297d571abe8.js",
+      "layout-component---index-c3f7f1e07297d571abe8.js.map"
+    ],
+    "path---about": [
+      "path---about-586c7e095e534a3909ec.js",
+      "path---about-586c7e095e534a3909ec.js.map"
+    ]
+  }
+}
