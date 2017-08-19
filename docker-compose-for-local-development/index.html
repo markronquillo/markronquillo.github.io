@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+ <html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/page-component---src-templates-blog-post-js-f845790ea70a62830e6a.js" as="script"/><link rel="preload" href="/path---docker-compose-for-local-development-573abaf1317f3089ac0f.js" as="script"/><link rel="preload" href="/layout-component---index-c3f7f1e07297d571abe8.js" as="script"/><link rel="preload" href="/app-e9eeb8dd87215db51dae.js" as="script"/><link rel="preload" href="/commons-2ab9a40510966dd9b2e4.js" as="script"/><script id="webpack-manifest">
+            //<![CDATA[
+            window.webpackManifest = {"15178676390636814000":"app-e9eeb8dd87215db51dae.js","8321446950128396000":"page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js","5567064509904683000":"page-component---src-templates-blog-post-js-f845790ea70a62830e6a.js","16228548823048030000":"page-component---src-pages-about-js-228faaa49c0de1cdfb3f.js","16151110681917225000":"page-component---src-pages-blog-js-7501306a1f51a772cf38.js","4016850265702045000":"page-component---src-pages-index-js-7501306a1f51a772cf38.js","9721245201524513000":"page-component---src-pages-projects-js-89699812aa26f377bf34.js","13784418321228782000":"path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js","9459623734783396000":"path---hello-world-6b36ed0337920c58f1ff.js","5999130115496146000":"path---beginning-docker-032e57bae6e152bae5d7.js","6780949494125760000":"path---docker-compose-for-local-development-573abaf1317f3089ac0f.js","12501955943040540000":"path---different-ways-to-implement-reducers-in-redux-9438289ec28cc2ca6178.js","10119280106459304000":"path---opensource-project-anatomization-initial-e978c5b59132f013bbc8.js","3626240092329125000":"path---sample-project-0ad2869180d9d26a130c.js","17953591736895156000":"path---about-586c7e095e534a3909ec.js","3256057251137531400":"path---blog-554d60f7f8386dd394f6.js","9347362237655822000":"path---index-554d60f7f8386dd394f6.js","6408524664133516000":"path---projects-ebc36328ab4c261442ca.js","17241999800008180000":"layout-component---index-c3f7f1e07297d571abe8.js"}
+            //]]>
+            </script><title data-react-helmet="true">Docker Compose for local development | Blog</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.45em 'georgia','serif';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'georgia','serif';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';font-weight:bold;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:0.85rem;line-height:1.45rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}blockquote{margin-left:1.45rem;margin-right:1.45rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.45rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.45rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}li > ul{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.45rem / 2);}code{font-size:0.85rem;line-height:1.45rem;}kbd{font-size:0.85rem;line-height:1.45rem;}samp{font-size:0.85rem;line-height:1.45rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><script>
+  !function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",[
+  "/commons-2ab9a40510966dd9b2e4.js","/app-e9eeb8dd87215db51dae.js","/layout-component---index-c3f7f1e07297d571abe8.js","/path---docker-compose-for-local-development-573abaf1317f3089ac0f.js","/page-component---src-templates-blog-post-js-f845790ea70a62830e6a.js"
+])
+  </script><style id="gatsby-inlined-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.header-links{font-size:12pt}.header-links a:not(:last-child){margin-right:15px}.page-list{margin:0;margin-left:-20px}.page-list li{min-height:120px;list-style:none;border-left:5px solid #d8d8d8;padding-left:20px;padding-bottom:20px;margin-bottom:20px;display:block}.page-list li>.title{font-size:1.2em}.page-list .date{display:block}.bordered-left{margin-left:-20px;padding-left:20px;border-left:5px solid #d8d8d8}</style></head><body><div id="___gatsby"><div style="max-width:39rem;margin-left:auto;margin-right:auto;padding:2.4375rem 1.21875rem;" data-reactroot="" data-reactid="1" data-react-checksum="1956788811"><div style="font-size:1.41421rem;line-height:2.4375rem;margin-bottom:2.4375rem;margin-top:-1.625rem;text-align:center;border:none;" class="flexboxgrid__row___1y_mg" data-reactid="2"><div class="flexboxgrid__col-xs-12___phbtE flexboxgrid__col-md-6___5OSyJ" data-reactid="3"><h1 style="margin-bottom:5px;border:none;" data-reactid="4"><a style="box-shadow:none;text-decoration:none;color:inherit;" href="/" data-reactid="5">Mark Joseph Ronquillo</a></h1><span data-reactid="6">Software Engineer</span></div><div class="flexboxgrid__col-xs-12___phbtE flexboxgrid__col-md-6___5OSyJ header-links" data-reactid="7"><a href="/blog" data-reactid="8"> Blog </a><a href="/projects" data-reactid="9"> Projects </a><a href="/about" data-reactid="10"> About </a></div></div><div data-reactid="11"><!-- react-empty: 12 --><h1 style="padding-bottom:1.625rem;" data-reactid="13">Docker Compose for local development</h1><p style="font-size:0.87055rem;line-height:1.625rem;display:block;margin-bottom:1.625rem;margin-top:-0.8125rem;" data-reactid="14">April 08, 2017</p><div style="font-size:1.1375rem;" data-reactid="15"><p>In a previous post, I have talked about basics of Docker and how to utilize it in your own development environment. One important benefit of Docker is that you can have multiple versions of applications or dependencies (e.g. MySQL, PHP) <em>installed</em> in your machine through docker images. In this post, I’ll discuss about Docker Compose. In a nutshell, Docker Compose lets the user define linked containers using a file in YAML format. For example you can have a Django application container connected to a PostgreSQL container defined in your <code>docker-compose.yml</code> file. Containers defined in the yaml file created or deleted using the command line tool <code>docker-compose</code>.</p>
+<h3>Sample Django application using Docker Compose</h3>
+<p>If you are using Mac OSX, you need to boot up your docker using <code>docker-machine start</code>. If you are using linux, by default it is already running. After that, create a new folder for your project, this is where you are going to store your django application, Dockerfile and docker-compose file. Inside your project folder, create a new django application by <code>django-admin startproject app</code>. </p>
+<h3>Dockerizing our django application</h3>
+<p>To start using docker in our django application, we need to create a Dockerfile inside the project root directory. Refer to the Dockerfile below:</p>
+<div class="gatsby-highlight">
+      <pre class="language-docker"><code><span class="token keyword">FROM</span> python<span class="token punctuation">:</span>3.4
+
+<span class="token keyword">ADD</span> requirements.txt /app/
+<span class="token keyword">RUN</span> pip install <span class="token punctuation">-</span>r /app/requirements.txt
+
+<span class="token keyword">WORKDIR</span> /app
+
+<span class="token keyword">EXPOSE</span> 8000
+</code></pre>
+      </div>
+<p>This Dockerfile uses the python:3.4 Docker image as the base image. It also installs the django application dependencies using <code>pip</code>. Then sets the default working directory in <code>/app</code> folder. Lastly, it exposes port 8000, since by default, this is where django apps run. You can try building a docker image using this Dockerfile by <code>docker build -t my-django-app</code></p>
+<h3>Using Docker Compose in our project</h3>
+<p>We can use docker compose to define and connect the containers that we will use in our project. Notice that we didn’t declare in the Dockerfile to copy the django project in the docker image, meaning if we try to run the docker image right now, it won’t have access (or copy) to the django application. This is intentional, since we are only using docker in our development environment. Instead of copying the project inside the docker image, we can use <em>volume</em> to mount our django project inside the running container. Create a new <code>docker-compose.yml</code> file inside your project root directory and copy the content below.</p>
+<div class="gatsby-highlight">
+      <pre class="language-yml"><code>version: '2'
+networks:
+    app-network:
+        driver: bridge
+services:
+  app:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    networks:
+        - app-network
+    environment:
+        - DB_HOST=app-db
+        - DB_NAME=myapp
+        - DB_USER=myapp
+        - DB_PASSWORD=mysecretpass
+    volumes:
+        - ./app:/app
+    links:
+        - db:app-db
+    ports:
+        - 8000:8000
+  db:
+      image: postgres
+      networks:
+          - app-network
+      environment:
+          - POSTGRES_USER=myapp
+          - POSTGRES_PASSWORD=mysecretpass
+      ports:
+          - 5432:5432</code></pre>
+      </div>
+<p>The first line in the <code>docker-compose.yml</code> file defines the version of docker compose that we are using. The second line defines a new network where we set our containers to run. It is ideal to let connected containers run on a different network other than the default <code>bridge</code> network. The next line defines the services or containers that we will create and use. For each container, we define the image that it will use, mounted volumes, ports exposed, environment variables, network where it will run etc. </p>
+<p>One benefit in using docker compose is that we can organize and connect our containers using just one <code>docker-compose.yml</code> file. In our example, we defined a django app container that is connected to a postgres container. We defined our django app container to mount a volume <code>./app</code> to the container. This enables us to edit our code without accessing the insides of the container. The link parameter tells docker compose to map the postgres container <code>db</code> as <code>app-db</code> inside our <code>app</code> container. This enables us to use <code>app-db</code> as the DB_HOST value and  thus connect to the postgres container.</p>
+<p>Run <code>docker-compose up -d</code> to start building images and running our containers. You should see the results below. </p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="undefined"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; z-index: -1; display: block; "
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 13.748191027496382%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAVUlEQVQI153Myw2AIBBFUVogRiQzcSMIyGdcmdB/Y0+DHbA4uburiBbs7nP8mAnGrNBaT1Exelz5REgOKXuIVITgYe02N2yt4hZBKWXMen9GmXlq+ALVhUw03neNvgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="docker-compose-up"
+        title=""
+        src="/static/f6b332ce25ee85530946f11ebd10fca0-fb8a0.png"
+        srcset="/static/f6b332ce25ee85530946f11ebd10fca0-1a291.png 148w,
+/static/f6b332ce25ee85530946f11ebd10fca0-2bc4a.png 295w,
+/static/f6b332ce25ee85530946f11ebd10fca0-fb8a0.png 590w,
+/static/f6b332ce25ee85530946f11ebd10fca0-526de.png 885w,
+/static/f6b332ce25ee85530946f11ebd10fca0-fa2eb.png 1180w,
+/static/f6b332ce25ee85530946f11ebd10fca0-31287.png 1382w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>To view the status of your containers, run <code>docker-compose ps</code>.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="undefined"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; z-index: -1; display: block; "
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 18.59504132231405%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAn0lEQVQY022OXQ6EIBCDPQII6IKK/Ih6/wt26WTjw8aHCaVpv5khBIM1GcTK12KaJmit/0a9eO8zONdBm0cuW4cR6GCMgbUGyxJwng1W/lYmxk18auccUtqfvFYKQwihhyJqLaBmaF0XKeWc0FoV7f3nB4yY57lnveSuq8kSarmQJW45jtoBu5QIp1dKfsAsjOMoINUvIYQ+gfd9SpbAL5kZZwdGfXk7AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="docker-compose-ps"
+        title=""
+        src="/static/ed5ac930df902280ad8af63023ea1ef9-fb8a0.png"
+        srcset="/static/ed5ac930df902280ad8af63023ea1ef9-1a291.png 148w,
+/static/ed5ac930df902280ad8af63023ea1ef9-2bc4a.png 295w,
+/static/ed5ac930df902280ad8af63023ea1ef9-fb8a0.png 590w,
+/static/ed5ac930df902280ad8af63023ea1ef9-526de.png 885w,
+/static/ed5ac930df902280ad8af63023ea1ef9-fa2eb.png 1180w,
+/static/ed5ac930df902280ad8af63023ea1ef9-c6200.png 1452w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Finally, access your django application in the browser using <code>localhost:8000</code>. If you are using mac, get the ip of your docker machine by <code>docker-machine ip</code> then access the app in the browser using [your docker machine ip]:8000. That’s it, you now have a connected django app container to a postgresql container. </p></div><hr style="margin-top:1.625rem;margin-bottom:1.625rem;" data-reactid="16"/></div><span style="display:block;clear:both;" data-reactid="17"> </span></div></div><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'undefined', 'auto');
+  ga('send', 'pageview');
+      </script></body></html>
